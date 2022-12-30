@@ -1,0 +1,48 @@
+/* Основной текст
+Roboto Size 16px Letter 2% line-height 1.5
+SLATE #434455 
+
+H1
+Roboto Size 56px Letter 2% line-height 1.07
+white #FFFFFF
+
+H2 
+Roboto Size 36px Letter 2% line-height 1.1
+
+NAVY BLUE #2E2F42
+
+H3
+Roboto Size 20px Letter 2% line-height 1.2
+
+NAVY BLUE #2E2F42  
+
+цвет фона #E5E5E5;*/
+:root {
+  --main-font: Roboto sans-serif;
+  --main-color: #434455;
+  --main-bgc: #ffffff;
+  --main-color-title: #2e2f42;
+}
+body {
+  color: var(--main-color);
+  font-family: var(--main-font);
+  background-color: var(--main-bgc);
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+}
+
+h2,
+h3 {
+  color: var(--main-color-title);
+}
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+}
+.logo-web {
+  color: #4d5ae5;
+}
