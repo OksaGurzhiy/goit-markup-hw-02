@@ -15,8 +15,8 @@ H3
 Roboto Size 20px Letter 2% line-height 1.2
 
 NAVY BLUE #2E2F42  
+*/
 
-цвет фона #E5E5E5;*/
 :root {
   --main-font: Roboto sans-serif;
   --main-color: #434455;
@@ -30,19 +30,104 @@ body {
   font-size: 16px;
   letter-spacing: 0.02em;
   line-height: 1.5;
+  font-weight: 400;
 }
-
-h2,
-h3 {
+.nav {
   color: var(--main-color-title);
 }
-
 .logo {
   font-family: Raleway, sans-serif;
+  font-weight: 500;
   font-size: 18px;
   line-height: 1.33;
   letter-spacing: 0.03em;
 }
+
 .logo-web {
   color: #4d5ae5;
+}
+
+.site-nav {
+  font-weight: 500;
+}
+.site-nav a:hover,
+.site-nav a:focus,
+.logo:hover,
+.logo:focus,
+.contacts a:hover,
+.contacts a:focus,
+.logo-footer:hover,
+.logo-footer:focus {
+  color: #4d5ae5;
+}
+
+.contacts a {
+  color: var(--main-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.list a {
+  text-decoration: none;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  color: #ffffff;
+}
+.button {
+  color: #ffffff;
+  background-color: #4d5ae5;
+}
+.buttton:hover,
+.button:focus {
+  color: #4d5ae5;
+  background-color: #ffffff;
+}
+
+h2 {
+  color: var(--main-color-title);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+h3 {
+  color: var(--main-color-title);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+footer {
+  background-color: var(--main-color-title);
+  color: #e7e9fc;
+}
+
+.logo-footer {
+  color: #f4f4fd;
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.filtr-but {
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+}
+
+.filtr-but:hover,
+.filtr-but:focus {
+  color: #ffffff;
+  background-color: #404bbf;
 }
