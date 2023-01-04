@@ -121,7 +121,7 @@ footer {
   text-transform: uppercase;
 }
 
-.filtr-but {
+.filtr-button {
   color: #4d5ae5;
   background-color: #f4f4fd;
   align-items: center;
@@ -130,8 +130,8 @@ footer {
   font-weight: 600;
 }
 
-.filtr-but:hover,
-.filtr-but:focus {
+.filtr-button:hover,
+.filtr-button:focus {
   color: #ffffff;
   background-color: #404bbf;
 }
